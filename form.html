@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Chaordic School</title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            form {
+                width: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais:</legend>
+
+                <label>Nome:</label>
+                <input type="text">
+                <br>
+                
+                <label>Email:</label>
+                <input type="text">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Sexo:</legend>
+
+                <input type="radio">
+                <label>Femino</label>
+                <br>
+                
+                <input type="radio">
+                <label>Masculino</label>
+                <br>
+
+                <label>Faixa etária</label>
+                <br>
+                <select name="faixaetaria">
+                    <optgroup label="Pirralhos">
+                        <option value="1">até 15 anos</option>
+                        <option value="2"> de 16 até 25 anos</option>
+                    </optgroup>
+                    <optgroup label="Meia idade">
+                        <option value="3"> de 26 até 40 anos</option>
+                        <option value="4"> de 41 até 50 anos</option>
+                    </optgroup>
+                    <optgroup label="Velhotes">
+                        <option value="5"> mais de 50 anos</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Preferências:</legend>
+                
+                <label>Qual alimento você mais gosta?</label>
+                <br>
+                <select>
+                    <option>Cookie</option>
+                    <option>Batata</option>
+                    <option>Peixe</option>
+                </select>
+                <br>
+                
+                <label>Quais os melhores horários para estudo?</label>
+                <br>
+                <select multiple>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Spam:</legend>
+                
+                <input id="spam" type="checkbox">
+                <label for="spam">Sim, aceito receber SPAM!</label>
+            </fieldset>
+            <input type="submit" value="Enviar!">
+        </form>
+    </body>
+</html>
